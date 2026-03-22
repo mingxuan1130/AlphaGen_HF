@@ -1,0 +1,58 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.factor_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Notebook artifacts
+.ipynb_checkpoints/
+
+# Local outputs
+logs/
+out/
+runs/
+artifacts/
+checkpoints/
+tensorboard/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# Archives
+*.zip
+*.tar
+*.7z
+
+# Local datasets
+data_share/
+data_local/
+datasets/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local project notes
+.codex_behavior.md
+.codex_*
+cml_inst.md
+instruction.md
